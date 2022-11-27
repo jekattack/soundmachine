@@ -7,18 +7,19 @@ import { Component, Inject, inject, Input, OnInit } from '@angular/core';
 })
 
 export class ButtonComponent implements OnInit{
-  
+
   @Input() emoji!: string;
+  @Input() allSounds: string[] = []
 
   emojiName = '';
   emojiPath = '';
   soundPath = '';
-  
+
   playSound(){
     console.log("test")
     let sound = new Audio();
     sound.src = this.soundPath;
-    sound.load(); 
+    sound.load();
     sound.play();
   }
 
