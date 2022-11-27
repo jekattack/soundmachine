@@ -10,7 +10,7 @@ export class AppComponent {
 
   constructor(){}
 
-  emojis: string[] = [
+  allSounds: string[] = [
     "thumbs-up",
     "heart",
     "laughing",
