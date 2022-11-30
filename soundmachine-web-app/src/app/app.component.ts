@@ -16,7 +16,6 @@ export class AppComponent {
     "laughing",
     "surprised",
     "unhappy",
-    "angry",
     "applause",
     "raised-hand"
   ];

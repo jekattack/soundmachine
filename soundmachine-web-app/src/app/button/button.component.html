@@ -1,4 +1,4 @@
 <img (click)="playSound()" [src]="emojiPath" [alt]="emoji">
 <select [(ngModel)]="selectedSound">
-  <option *ngFor="let sound of allSounds" [ngValue]="sound">{{sound}}</option>
+  <option *ngFor="let sound of allSounds" [ngValue]="sound" style="display: none">{{sound}}</option>
 </select>
